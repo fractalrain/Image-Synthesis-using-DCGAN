@@ -4,7 +4,7 @@
 
 ## Instructions to use - (Windows)
 
-#### 1. Get the Dataset from the URL and extract the contents into a folder named "faces" in the project directory
+#### 1. Get the Dataset from the [URL](https://www.kaggle.com/datasets/maciejgronczynski/biggest-genderface-recognition-dataset/discussion) and extract the contents into a folder named "faces" in the project directory
 #### 2. Create a folder named "savedstate" in the projecct directory
 
 THE DIRECTORY STRUCTURE SHOULD LOOK LIKE THIS -
