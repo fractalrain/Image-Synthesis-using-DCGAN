@@ -1,6 +1,7 @@
 torch
 numpy
 torchvision
+matplotlib
 torchaudio
 anyio==4.2.0
 argon2-cffi==23.1.0

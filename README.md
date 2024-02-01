@@ -62,5 +62,11 @@ Open the inference.ipynb file in the jupyter notebook instance.
 
 Select the ipykernel we just created from the kernel dropdown menu.
 The kernel should be under "Other kernels" and named "myenv".
+Note: You may need to manually install some dependencies which give an error when running inference.ipynb
 
-#### 5. Now you can run the code freely in this venv!!!!
+#### Models
+If you wish to use pretrained models use this [URL](https://mega.nz/folder/5qEX2AyR#hThDVv4r1gHgFNM_2uFqCQ) to download the files.
+
+Or you can train a model yourself ig you have enough time and compute resources.
+
+If you wish to use the pretrained models, You just have to extract the .zip into the savedsaved state folder
