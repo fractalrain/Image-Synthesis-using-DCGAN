@@ -59,6 +59,7 @@ jupyter notebook
 #### 4. Running inference.ipynb
 Open the inference.ipynb file in the jupyter notebook instance.
 
+##### NOTE- You need to edit 'config.py' and individual paths to pretrained models in the 'inference.ipynb' to ensure error-free usage.
 
 Select the ipykernel we just created from the kernel dropdown menu.
 The kernel should be under "Other kernels" and named "myenv".
