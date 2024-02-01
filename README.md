@@ -33,3 +33,4 @@ DCGAN/
 python scriptwin32.py
 ```
 This will create a pythno venv and install all the required dependencies in that venv
+
