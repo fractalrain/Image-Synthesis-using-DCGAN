@@ -1,9 +1,0 @@
-savedstate/
-.venv/
-.idea
-.ipynb_checkpoints/
-faces/man/
-faces/woman/
-/shelf/
-/workspace.xml
-.gitignore
