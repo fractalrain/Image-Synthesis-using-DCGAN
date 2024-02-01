@@ -1,37 +1,35 @@
-# Foobar
-# TEMPLATE README
-Foobar is a Python library for dealing with word pluralization.
+# Image Synthesis using DCGAN
 
-## Installation
+---
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Instructions to use - (Windows)
 
-```bash
-pip install foobar
+#### 1. Get the Dataset from the URL and extract the contents into a folder named "faces" in the project directory
+#### 2. Create a folder named "savedstate" in the projecct directory
+
+THE DIRECTORY STRUCTURE SHOULD LOOK LIKE THIS -
+
+```
+DCGAN/
+|   
+|-- faces/
+|   |-- man/
+|   |-- woman/
+|   
+|-- savedstate/
+|
+|-- config.py       
+|-- inference.ipynb
+|-- model.py
+|-- README.md
+|-- requirements.txt
+|-- scriptwin32.py
+|-- train.py
+|-- utils.py
 ```
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+#### Make sure you have python3 installed and then run the "scriptwin32.py" file with cmd in the project directory
 ```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+python scriptwin32.py
+```
+This will create a pythno venv and install all the required dependencies in that venv
