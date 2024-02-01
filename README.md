@@ -28,9 +28,39 @@ DCGAN/
 |-- utils.py
 ```
 
-#### Make sure you have python3 installed and then run the "scriptwin32.py" file with cmd in the project directory
+#### Make sure you have python3 installed, then enter the following commands in an Elevated Terminal to create and activate a python virtual environment
 ```
-python scriptwin32.py
+python -m venv myenv
+cd .\myenv\Scripts\
+.\Activate.ps1   
 ```
-This will create a pythno venv and install all the required dependencies in that venv
+##### NOTE - In some systems, User might need to temporarily bypass execution policy
+```
+Set-ExecutionPolicy Bypass -Scope Process
+```
+Then run the command below to install all the dependencies in the venv
+```
+pip install -r requirements.txt
+```
+This will create a python venv and install all the required dependencies in that venv
 
+#### 3. Install jupyter notbook and iPykernel 
+iPykernel is used to register the venv you just created and use it as a kernel in jupyter notebook instance.
+
+
+Make sure you are in the Project directory and not \myenve\scripts when you run the jupyter notebook command.
+```
+pip install notebook
+pip install ipykernel
+python -m ipykernel install --user --name=myenv
+jupyter notebook
+```
+
+#### 4. Running inference.ipynb
+Open the inference.ipynb file in the jupyter notebook instance.
+
+
+Select the ipykernel we just created from the kernel dropdown menu.
+The kernel should be under "Other kernels" and named "myenv".
+
+#### 5. Now you can run the code freely in this venv!!!!
