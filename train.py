@@ -85,7 +85,7 @@ for epoch in range(utils.num_epochs):
         iters += 1
 
         # Save the models and optimizers after epochs 50 and 500
-        if (epoch + 1) == 50 or (epoch + 1) == 500 or (epoch + 1) == 100 or (epoch + 1) == 700:
+        if (epoch + 1) == 20 or (epoch + 1) == 500 or (epoch + 1) == 100 or (epoch + 1) == 700:
             checkpoint_file = os.path.join(savedstate_dir, f'checkpoint_epoch_{epoch + 1}.pth')
 
             torch.save({

@@ -1,6 +1,6 @@
 savedstate/
 .venv/
-.idea/
+.idea
 .ipynb_checkpoints/
 faces/man/
 faces/woman/

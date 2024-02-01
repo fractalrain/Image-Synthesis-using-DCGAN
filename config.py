@@ -3,9 +3,6 @@ import torch
 # Path for data set
 dataroot = '/home/nesh/PycharmProjects/DCGANface/faces'
 
-# checkpoint after how many epochs
-savepoint = 50
-
 # Number of workers for dataloader
 workers = 4
 
@@ -29,7 +26,7 @@ ngf = 64
 ndf = 64
 
 # Number of training epochs
-num_epochs = 700
+num_epochs = 25
 
 # Learning rate for optimizers
 lr = 0.0002
